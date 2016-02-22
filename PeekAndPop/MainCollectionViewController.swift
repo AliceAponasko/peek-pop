@@ -96,12 +96,6 @@ class MainCollectionViewController: UICollectionViewController {
             })
         }
     }
-    
-    // MARK: UICollectionViewDelegate
-    
-    override func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        performSegueWithIdentifier(ShowDetailSegueID, sender: collectionView.cellForItemAtIndexPath(indexPath))
-    }
 
 }
 
