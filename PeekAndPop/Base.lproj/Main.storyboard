@@ -40,6 +40,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="photoImageView" destination="c2Q-iI-Cqe" id="rX4-xw-CJU"/>
+                                    <segue destination="88K-Te-API" kind="show" identifier="showDetail" id="Jd5-El-qU2"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -49,9 +50,6 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="7vc-m3-doo"/>
-                    <connections>
-                        <segue destination="88K-Te-API" kind="show" identifier="showDetail" id="g2B-yG-9hv"/>
-                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewx-WH-aUJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
